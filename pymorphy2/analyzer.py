@@ -180,7 +180,7 @@ class MorphAnalyzer(object):
         self._lang = lang
 
         if path is None and lang is None:
-            lang = 'ru'
+            lang = 'uk'
 
         path = self.choose_dictionary_path(path, lang)
 
